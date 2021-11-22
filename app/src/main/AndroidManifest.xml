@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".RegistroSuperheroeActivity"
+            android:exported="true" >
             <intent-filter> <!-- indica que se abre esta actividad -->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
